@@ -1,0 +1,163 @@
+.Homepage, .account, .rating{
+    background-color: antiquewhite;
+    font-family: 'PT Serif';
+    text-align: center;
+}
+
+.buttons {
+    border: none;
+    background-color:azure;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.buttons:hover {
+    background-color:paleturquoise;
+    color:white;
+}
+
+#account {
+    padding: 20px 40px;
+}
+
+#rating, #match {
+    padding: 20px 33px;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.error {
+    display: none;
+    position: absolute;
+    left: 40.5%;
+}
+
+#firstname_error {
+    top: 12.5%;
+}
+
+#lastname_error {
+    top: 22%;
+}
+
+#age_error {
+    top: 31.5%;
+}
+
+#gender_error {
+    top: 41%;
+}
+
+#interests_error {
+    top: 52%;
+}
+
+#phone_error {
+    top: 64%;
+}
+
+#preferred_gender_error {
+    top: 73.5%;
+}
+
+#hartjes {
+    position: absolute;
+    left: 70px;
+    top: 160px;
+}
+
+input,textarea,select {
+    border: none;
+}
+
+.invoer {
+    width: 300px;
+    height: 25px;
+}
+
+.labels {
+    text-align: left;
+}
+
+#success {
+    position: absolute;
+    right: 70px;
+    top: 160px;
+    font-size: 30px;
+}
+
+#swiping {
+    position: absolute;
+    right: 200px;
+    padding: 20px 40px;
+    top: 530px;
+}
+
+#like {
+    background-color: lightgreen;
+    color: DodgerBlue;
+    font-size: 45px;
+    font-weight: bold;
+    width: 5%;
+    height: 0;
+    padding-bottom: 5%;
+    border-radius: 50%;
+    overflow:hidden;
+    border: none;
+    text-align: center;
+    line-height: 1.75em;
+    position: absolute;
+    right: 650px;
+    top: 45%;
+}
+
+#dislike {
+    background-color: red;
+    color: DodgerBlue;
+    font-size: 40px;
+    font-weight: bold;
+    width: 5%;
+    height: 0;
+    padding-bottom: 5%;
+    border-radius: 50%;
+    overflow:hidden;
+    border: none;
+    text-align: center;
+    line-height: 2em;
+    position: absolute;
+    left: 650px;
+    top: 45%;
+}
+
+blockquote {
+    background-color: white;
+    font-size: 18px;
+    margin-left: 42%;
+    margin-right: 42%;
+    -ms-transform: translateY(-100%);
+    transform: translateY(100%);
+}
+
+button {
+    -ms-transform: translateY(-100%);
+    transform: translateY(100%);
+}
+
+.person {
+    display: none;
+}
+
+.person.is-active {
+    display: block;
+}
+
+li {
+    position: absolute;
+    left: 750px;
+}
